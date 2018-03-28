@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
 
 let member = message.mentions.members.first();
 if(!member)
-  return message.reply("Uso correto: !unmute (@user) (motivo)");
+  return message.reply("Uso correto: !unmute (@user)");
 
   member.guild.members.get(member.id).removeRole(member.guild.roles.find("name", "👾 Mutado").id);
 message.delete().catch(O_o=>{});
