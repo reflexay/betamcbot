@@ -26,7 +26,7 @@ const saySelf = args.join(" ");
       timestamp: new Date(),
       footer: {
         icon_url: client.user.avatarURL,
-        text: "RapexBOT"
+        text: "ReflexayDev© • BetaBOT"
       }
     }
   });
